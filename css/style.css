@@ -104,12 +104,29 @@ a {
     width: 90%;
 }
 
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5em;
+    margin-top: 5em;
+    background-color: #eeeeee;
+    
+}
+
+footer div h4{
+    margin-bottom: 1em;
+}
+
+footer div ul li {
+    line-height: 2em;
+}
+
 /* PÁGINA LOGIN*/
 .topo-login{
     padding-top: 1.5em;
     width: 100%;
 }
-
 
 .topo-login nav ul{
     margin-left: 5em;
@@ -117,8 +134,6 @@ a {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 
 
