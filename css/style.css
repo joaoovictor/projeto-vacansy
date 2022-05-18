@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 * {
     list-style: none;
     padding: 0;
@@ -5,13 +7,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 a {
     text-decoration: none;
+}
+.container-default{
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .topo {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.092), 0 6px 20px 0 rgba(0, 0, 0, 0);
     padding: 1.5em;
+    
 }
 
 .topo nav{
@@ -22,14 +35,67 @@ a {
 .topo nav ul{
     display: flex;
     justify-content: space-evenly;
+    padding-right: 7em;
 }
 
 .topo nav ul li {
-    padding-right: 8px;
+    padding-right: 1em;
     font-size: 1.2em;
 }
 
 .topo nav ul li a {
     color: black;
 }
+
+.banner{
+    margin-top: 5em;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-main{
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.box-main h2 {
+    font-size: 2.5em;
+    line-height: 1em;
+    width: 60%;
+}
+
+.box-main h2 span {
+    color: #fe2784;
+}
+
+.box-main button {
+    width: 28%;
+    height: 9%;
+    border-radius: 15px;
+    border: 1px solid #fe2784;
+    background-color: #fe2784;
+}
+
+.box-main button a {
+    font-size: 1.1em;
+    color: black;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img{
+    width: 90%;
+}
+
+
 
