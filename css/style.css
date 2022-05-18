@@ -97,5 +97,22 @@ a {
     width: 90%;
 }
 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5em;
+    margin-top: 5em;
+    background-color: #eeeeee;
+    
+}
+
+footer div h4{
+    margin-bottom: 1em;
+}
+
+footer div ul li {
+    line-height: 2em;
+}
+
 
 
