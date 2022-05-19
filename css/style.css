@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 
 * {
     list-style: none;
@@ -18,6 +19,7 @@ a {
 
 
 .container-default{
+    margin-top: 4em;
     margin-left: 14em;
     margin-right: 14em;
 }
@@ -127,20 +129,83 @@ footer div ul li {
 }
 
 /* PÁGINA LOGIN*/
+
+.container-default2{
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
 .topo-login{
     padding-top: 1.5em;
     width: 100%;
 }
 
 
-.login-link-box ul{
+.login-link-box{
+    margin-right: 14em;
+    width: 13vw;
+    height: 6vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: #FFBE3C;
+    background-color: #ffbe3c55;
+    border-radius: 6px;
 }
 
 .login-link {
+    color: black;
     font-size: 0.8em;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-login {
+    margin-top: 4em;
+}
+
+.form-title-h2 {
+    font-weight: 500;
+}
+
+
+.form-fields {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-fields form .user-box input{
+    border: 2px solid #fe27845d;
+    outline: none;
+    border-radius: 10px;
+    height: 3em;
+    width: 100%;
+    padding-left: 1em;
+}
+
+.user-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 0.8em;
+}
+
+.user-sender {
+    margin-top: 1em;
+}
+
+#send-button {
+    width: 100%;
+    height: 4.2vh;
+    border-radius: 12px;
+    border: 1px solid #fe2784;
+    background-color: #fe2784;
+    color: #eeeeee;
+    font-weight: 500;
 }
 
 
