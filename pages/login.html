@@ -13,16 +13,52 @@
             <div class="topo">
                 <nav>
                     <div class="logo-wrapper">
-                        <img src="../img/logo.svg" alt="Logo Vacansy" class="logo">
+                        <a href="../index.html"><img src="../img/logo.svg" alt="Logo Vacansy" class="logo"></a>
                     </div>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="">Vagas</a></li>
-                        <li><a href="./pages/login.html">Login</a></li>
-                        <li><a href="">Sobre nós</a></li>
-                    </ul>
+                    <div class="login-link-box">
+                        <div>
+                            <a href="" class="login-link">Não possui conta?</a>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </header>
+
+        <div class="container-default2">
+            <section class="login-wrapper">
+                <div class="login-image">
+                    <img src="../img/login-image.svg" alt="Imagem de uma mulher segurando formulários">
+                </div>
+
+                <div class="form-login">
+                    <div class="form-title">
+                        <h2 class="form-tile-h2">Login</h2>
+                        <p>Faça o login para acessar sua conta</p>
+                    </div>
+
+                    <div class="form-fields">
+                        <form action="../index.html">
+                            <div class="user-box">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="emailField" placeholder="Digite seu email">
+                            </div>
+                            <div class="user-box">
+                                <label for="password">Senha</label>
+                                <input type="password" name="password" id="passwordField" placeholder="Digite sua senha">
+                            </div>
+                            
+                            <div class="user-checkbox">
+                                <label for="keep-signed">Manter conectado?</label>
+                                <input type="checkbox" name="keep-signed" id="keep-signed-label">
+                            </div>
+
+                            <div class="user-sender">
+                                <input type="submit" name="send" id="send-button">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
