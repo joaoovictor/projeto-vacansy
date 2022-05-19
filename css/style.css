@@ -128,6 +128,15 @@ footer div ul li {
     line-height: 2em;
 }
 
+footer div ul li a {
+    color: #000000;
+    transition: all 0.2s ease-out;
+}
+
+footer div ul li a:hover {
+    color: #fe2784;
+}
+
 /* PÁGINA LOGIN*/
 
 .container-default2{
@@ -183,7 +192,8 @@ footer div ul li {
 .box-v-1 a img {
     width: 20em;
     padding-bottom: 1em;
-=======
+}
+
 .login-wrapper {
     display: flex;
     justify-content: space-around;
