@@ -221,6 +221,7 @@ footer div ul li a:hover {
     height: 3em;
     width: 100%;
     padding-left: 1em;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.092), 0 6px 20px 0 rgba(0, 0, 0, 0.033);
 }
 
 .user-box {
@@ -242,6 +243,7 @@ footer div ul li a:hover {
     background-color: #fe2784;
     color: #eeeeee;
     font-weight: 500;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(0, 0, 0, 0.033);
 }
 
 
