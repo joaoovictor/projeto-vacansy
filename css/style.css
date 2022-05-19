@@ -143,5 +143,31 @@ footer div ul li {
     font-size: 0.8em;
 }
 
+/*PÁGINA VAGAS*/
+
+.box-vacancies {
+    display: flex;
+    margin: 5em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box-v-1 {
+    padding: 3em;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin: 1em;
+    width: 30em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box-v-1 a img {
+    width: 20em;
+    padding-bottom: 1em;
+}
+
 
 
