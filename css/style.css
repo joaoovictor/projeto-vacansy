@@ -18,8 +18,8 @@ a {
 
 
 .container-default{
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 14em;
+    margin-right: 14em;
 }
 
 /*PÁGINA INDEX*/
@@ -32,12 +32,13 @@ a {
 .topo nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .topo nav ul{
     display: flex;
     align-items: center;
-    padding-right: 7em;
+    padding-right: 14em;
 }
 
 .topo nav ul li {
@@ -49,9 +50,11 @@ a {
     color: black;
 }
 
+
+
 .logo {
-    width: 60%;
-    padding-left: 4.5em;
+    width: 26vw;
+    padding-left: 13em;
 }
 
 .banner{
@@ -83,16 +86,16 @@ a {
 }
 
 .box-main button {
-    width: 28%;
+    width: 35%;
     height: 9%;
-    border-radius: 15px;
+    border-radius: 12px;
     border: 1px solid #fe2784;
     background-color: #fe2784;
 }
 
 .box-main button a {
     font-size: 1.1em;
-    color: black;
+    color: #ffffff;
 }
 
 .main-img {
@@ -101,7 +104,7 @@ a {
 }
 
 .main-img img{
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -128,11 +131,15 @@ footer div ul li {
     width: 100%;
 }
 
-.topo-login nav ul{
-    margin-left: 5em;
-    margin-right: 5em;
+
+.login-link-box ul{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    background-color: #FFBE3C;
+}
+
+.login-link {
+    font-size: 0.8em;
 }
 
 
