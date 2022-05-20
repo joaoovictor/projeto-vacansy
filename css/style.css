@@ -174,7 +174,7 @@ footer div ul li a:hover {
     display: flex;
     margin: 5em;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .box-v-1 {
@@ -182,12 +182,10 @@ footer div ul li a:hover {
     border-radius: 10px;
     border: 1px solid #000000;
     margin: 1em;
-    width: 30em;
-    align-items: center;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
-
 
 .box-v-1 a img {
     width: 20em;
@@ -246,5 +244,5 @@ footer div ul li a:hover {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.049), 0 6px 20px 0 rgba(0, 0, 0, 0.033);
 }
 
-
+/*PADRAO DAS PÁGINAS VAGAS*/
 
