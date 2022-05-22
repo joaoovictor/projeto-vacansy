@@ -148,9 +148,8 @@ footer div ul li a:hover {
 
 
 .login-link-box{
-    margin-right: 14em;
-    width: 13vw;
-    height: 6vh;
+    width: 12vw;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,4 +319,71 @@ footer div ul li a:hover {
     background-color: #ff6a20;
     border-radius: 12px;
    
+}
+
+.about-us-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: 4em;
+
+}
+
+.text-one {
+    padding-bottom: 13em;
+
+}
+
+.about-us-wrapper-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 4em;
+    background-color: #d5c9c9;
+}
+ 
+
+.img-2 {
+    margin-top: 5em;
+    padding-left: 5em;
+    padding-bottom: 3em;
+}
+
+.about-us-wrapper-2 div p {
+    padding-right: 10em;
+}
+
+.footer-about-us {
+    margin-top: 0;
+}
+
+.criar-topo nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.criar-topo nav ul {
+    display: flex;
+  
+}
+
+.criar-topo nav li {
+    padding-right: 3em;
+    
+}
+
+.criar-topo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.092), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    padding: 1em;
+}
+
+.left-side {
+    width: 40%;
+    background-color: #fe2784;
+}
+
+.right-side {
+    width: 60%;
+    background-color: #ff6a20;
 }
