@@ -379,11 +379,57 @@ footer div ul li a:hover {
 }
 
 .left-side {
-    width: 40%;
-    background-color: #fe2784;
+    width: 35%;
+    background-color: #d5c9c91d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0 4em 0;
 }
 
 .right-side {
+    width: 70%;
+}
+
+.form-cadastro-wrapper{
     width: 60%;
-    background-color: #ff6a20;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.title-cadastro{
+    width: 60%;
+}
+
+.form-cadastro input {
+    border: 2px solid #fe27845d;
+    border-radius: 10px;
+    height: 3em;
+    padding-left: 1em;
+}
+
+.form-cadastro input {
+    border: 2px solid #fe27845d;
+    border-radius: 10px;
+    height: 3em;
+    padding-left: 1em;
+}
+
+.form-cadastro #button {
+    border: 0;
+    background-color: #fe2784;
+}
+
+.container {
+    display: flex;
+}
+
+.img-signup {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
 }
