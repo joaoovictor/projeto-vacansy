@@ -1,3 +1,10 @@
+const accordion = document.getElementsByClassName('contentBx');
+
+for(i = 0; i < accordion.length; i++){
+    accordion[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+    })
+}
 
 const buttonLogin = document.querySelector('#send-button');
 const buttonCadastro = document.querySelector('#button-signup');
@@ -12,10 +19,4 @@ buttonCadastro.addEventListener('click', function(){
 
 
 
-const accordion = document.getElementsByClassName('contentBx');
 
-for(i = 0; i < accordion.length; i++){
-    accordion[i].addEventListener('click', function() {
-        this.classList.toggle('active');
-    })
-}
