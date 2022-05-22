@@ -433,3 +433,36 @@ footer div ul li a:hover {
     width: 100%;
     display: flex;
 }
+
+/*PÁGINA DE VAGAS-DETALHES*/
+.banner-vaga {
+    width: 100%;
+    height: 25vh;
+    position: relative;
+}
+
+.banner-vaga img {
+    object-fit: cover;
+    object-position: 25% 38%; 
+    width: 100%;
+    height: 100%;
+}
+
+.banner-logo {
+    background-color: #fdfdfd;
+    top: 9em;
+    margin-left: 16em;
+    position: absolute;
+    width: 15vw;
+    border: 1px solid #fe2784;
+    padding: 1em;
+    border-radius: 12px;
+}
+
+.banner-logo img {
+    width: 100%;
+}
+
+.container-text {
+    margin: 2em;
+}
