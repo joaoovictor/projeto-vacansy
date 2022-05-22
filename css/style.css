@@ -331,8 +331,9 @@ footer div ul li a:hover {
 }
 
 .text-one {
+    width: 35vw;
     padding-bottom: 13em;
-
+    margin-left: 8em;
 }
 
 .about-us-wrapper-2 {
@@ -471,12 +472,14 @@ footer div ul li a:hover {
     margin: 2em;
 }
 
+
 #button-vaga {
     background-color: #fe2784;
     border: 1px solid transparent;
     border-radius: 10px;
     padding: 0.8em;
     font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
 .etapas ul {
