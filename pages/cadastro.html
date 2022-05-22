@@ -12,54 +12,62 @@
         <div class="criar-topo">
             <nav> 
                 <div>
-                    <a>
+                    <a href="../index.html">
                         <img src="../img/logo.svg" class="logo">
                     </a>
                 </div>
                 <ul>
-                    <li><a href="./vagas.html">vagas</a></li>
-                    <li><a href="./login.html">login</a></li>
-                    <li><a href="./sobre_nos.html">sobre_nos</a></li>
+                    <li><a href="./vagas.html">Vagas</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="./sobre_nos.html">Sobre Nós</a></li>
+                    <li><a href="./candidaturas.html">Candidaturas</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="left-side">
-        <div>
-            <h1>O primeiro passo para se inscrever</h1>
-            <p>Crie sua conta</p>
-        </div>
-        <div>
-            <form>
-                <div>
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome">
-                </div>
-                <div>
-                    <label for="sobrenome">sobrenome</label>
-                    <input type="text" name="sobrenome">
-                </div>
-                <div>
-                    <label for="e-mail">E-mail</label>
-                    <input type="email" name="e-mail">
-                </div>
-                <div>
-                    <label for="confirme-seu-email">Confrime seu E-mail</label>
-                    <input type="email" name="confirme-seu-email">
-                </div>
-                <div>
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha">
-                </div>
-                
-            </form>
-        </div>
-    </section>
+    <div class="container">
+        <section class="left-side">
+            <div class="title-cadastro">
+                <h1 >O primeiro passo para se inscrever</h1>
+                <p>Crie sua conta</p>
+            </div>
+            <div class="form-cadastro-wrapper">
+                <form>
+                    <div class="form-cadastro">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Insira seu nome">
+                    </div>
+                    <div class="form-cadastro">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" placeholder="Insira seu sobrenome">
+                    </div>
+                    <div class="form-cadastro">
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" name="e-mail" placeholder="Insira seu email">
+                    </div>
+                    <div class="form-cadastro">
+                        <label for="confirme-seu-email">Confirme seu E-mail</label>
+                        <input type="email" name="confirme-seu-email" placeholder="Insira email novamente">
+                    </div>
+                    <div class="form-cadastro">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Insira sua senha">
+                    </div>
+                    <div class="form-cadastro">
+                        <input type="submit" value="Enviar" id="button">
+                    </div>
+                </form>
+            </div>
+        </section>
 
 
-    <section class="right-side">
+        <section class="right-side">
+            <div>
+                <img src="../img/singup-page.svg" alt="Dedo teclando tela" class="img-signup">
+            </div>
+        </section>
+    </div>
 
-    </section>
 </body>
 </html>
