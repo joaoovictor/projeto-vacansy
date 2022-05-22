@@ -478,3 +478,119 @@ footer div ul li a:hover {
     padding: 0.8em;
     font-family: 'Poppins', sans-serif;
 }
+
+.etapas ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.lista-circles li {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+    border: 2px solid #fe2784;
+}
+
+.active {
+    background-color: #fe2784;
+}
+
+.title-etapas {
+    font-size: 0.8em;
+}
+
+.etapas{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts-vaga-detalhe {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.texts-vaga-detalhe p {
+    padding-right: 2em;
+}
+
+.greeen {
+    color: rgb(84, 255, 11);
+}
+
+.piink {
+    color: #fe2784;
+}
+
+.container-default3 {
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+.button-vaga-selecionada {
+    width: 7vw;
+    height: 5vh;
+    border: transparent;
+    background-color: #818181;
+    border-radius: 10px;
+}
+
+.accordion {
+    max-width: 70vw;
+}
+
+.accordion .contentBx {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 4em;
+    border-radius: 10px;
+}
+
+.accordion .contentBx .label {
+    position: relative;
+    padding: 10px;
+    background: #fe2784ae;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.accordion .contentBx .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;   
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.accordion .contentBx .content {
+    position: relative;
+    background: #ececec;
+    transition: 0.8s;
+    overflow: hidden;
+    overflow-y: hidden;
+    height: 0;
+    border-radius: 10px;
+}   
+
+.accordion .contentBx.active .content {
+    height: min-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.criar-topo nav ul li {
+    padding-right: 1em;
+    font-size: 1.2em;
+}
+
+.criar-topo nav ul li a {
+    color: black;
+}
+
+.title-candidaturas {
+    padding-left: 2em;
+}
+
