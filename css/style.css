@@ -459,10 +459,22 @@ footer div ul li a:hover {
     border-radius: 12px;
 }
 
+.negrito {
+    font-weight: bold;
+}
+
 .banner-logo img {
     width: 100%;
 }
 
 .container-text {
     margin: 2em;
+}
+
+#button-vaga {
+    background-color: #fe2784;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 0.8em;
+    font-family: 'Poppins', sans-serif;
 }
